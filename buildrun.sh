@@ -14,7 +14,7 @@ fi
 docker build -t $IMAGE .
 
 echo ""
-echo "access app @ http://localhost"
+echo "access app @ http://localhost:8080"
 echo "" 
-docker run -it -p 80:80 robjahn/keptn-orders-front-end:1 
+docker run -it -p 8080:8080 robjahn/keptn-orders-front-end:1 
 
