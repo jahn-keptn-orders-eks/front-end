@@ -10,6 +10,7 @@ RUN apt-get install -y -qq apache2 && \
 
 # Config Apache
 COPY index.html /var/www/html/index.html
+COPY health /var/www/html/health
 COPY dynatrace_logo.png /var/www/html/dynatrace_logo.png
 COPY black-friday-fashion-friends-1345082.jpg /var/www/html/black-friday-fashion-friends-1345082.jpg
 COPY 000-default.conf  /etc/apache2/sites-enabled/000-default.conf
