@@ -8,7 +8,13 @@
           "timeseriesId": "com.dynatrace.builtin:service.responsetime",
           "aggregation": "AVG",
           "startTimestamp": "",
-          "endTimestamp": ""
+          "endTimestamp": "",
+          "tags": [ {
+              "context": "CONTEXTLESS",
+              "key": "service",
+              "value": "front-end"
+            }
+          ]
         },
         "grading": {
           "type": "Threshold",
