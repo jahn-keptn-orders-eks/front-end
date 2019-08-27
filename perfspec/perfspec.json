@@ -13,8 +13,8 @@
         "grading": {
           "type": "Threshold",
           "thresholds": {
-            "upperSevere": 200000,
-            "upperWarning": 1000
+            "upperSevere": 2,
+            "upperWarning": 1
           },
           "metricScore": 100
         }
